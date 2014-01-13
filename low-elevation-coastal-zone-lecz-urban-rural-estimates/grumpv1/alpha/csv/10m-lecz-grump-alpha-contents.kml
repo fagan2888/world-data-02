@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Placemark>
+<name>All</name>
+<description>grids</description>
+</Placemark>
+<Placemark>
+<name>TABLE</name>
+<description>OF</description>
+<Point><coordinates>worksheet),(by,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>contents</name>
+</Placemark>
+<Placemark>
+<name>This</name>
+<description>page.</description>
+</Placemark>
+<Placemark>
+<name>readme</name>
+</Placemark>
+<Placemark>
+<name>Data Useage policy, Recommended Citation, Related Publications, and Acknowledgements</name>
+</Placemark>
+<Placemark>
+<name>field</name>
+<description>definitions</description>
+</Placemark>
+<Placemark>
+<name>Includes</name>
+<description>the</description>
+<Point><coordinates>conventions,naming,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>country_lecz</name>
+</Placemark>
+<Placemark>
+<name>Dataset of zonal statistics summarizing the urban, rural and total land area, and urban, rural &amp; total 1990, 1995 &amp; 2000 population for each country and for the portion of each country intersecting the low elevation coastal zone.</name>
+</Placemark>
+<Placemark>
+<name>citysize</name>
+</Placemark>
+<Placemark>
+<name>Dataset of zonal statistics summarizing the number of urban extents, 2000 population, land area by city size for each country and for the portion of each country intersecting the low elevation coastal zone.</name>
+</Placemark>
+<Placemark>
+<name>notes</name>
+</Placemark>
+<Placemark>
+<name>Notes regarding particular issues with the data. Known errors, and other specifics.</name>
+</Placemark>
+</Document>
+</kml>

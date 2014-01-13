@@ -1,0 +1,30 @@
+﻿[
+  {
+    "CharacterString":"CIESIN Metadata Services",
+    "CI_ResponsibleParty_Id":0
+  },
+  {
+    "CharacterString":"McGranahan, G., Balk , D. and Anderson, B.",
+    "CI_ResponsibleParty_Id":1
+  },
+  {
+    "CharacterString":"Socioeconomic Data and Applications Center (SEDAC), Columbia University",
+    "CI_ResponsibleParty_Id":2
+  },
+  {
+    "CharacterString":"http://www.isotc211.org/scXML",
+    "CI_ResponsibleParty_Id":3
+  },
+  {
+    "CharacterString":"McGranahan, G., Balk , D. and  Anderson, B.",
+    "CI_ResponsibleParty_Id":4
+  },
+  {
+    "CharacterString":"International Institute for Environment and Development (IIED)",
+    "CI_ResponsibleParty_Id":5
+  },
+  {
+    "CharacterString":"http://www.isotc211.org/scXML",
+    "CI_ResponsibleParty_Id":6
+  }
+]

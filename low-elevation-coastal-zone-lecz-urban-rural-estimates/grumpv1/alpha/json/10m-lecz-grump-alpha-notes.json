@@ -1,0 +1,35 @@
+[
+  {
+    "NOTES":"Methdological Notes"
+  },
+  {
+    "NOTES":"The spatial detail of census data varied greatly between countries and 1km resolution was considered the highest resolution that could be supported globally. The SRTM data utilized was at a resolution of 1km to facilitate a 1 to 1 spatial match with the population data. By degrading the resolution of the SRTM data to 1km, the estimates shown likely underestimate the population counts in the zone. A 10 meter elevation ceiling was chosen in part because of the error documented in SRTM data precision globally."
+  },
+  {
+    "NOTES":"Missing Data"
+  },
+  {
+    "NOTES":"-9999 indicates missing value"
+  },
+  {
+    "NOTES":"Land Area Adjustments"
+  },
+  {
+    "NOTES":"The country land area calculations in \"country_lecz\" worksheet hav been adjusted for the over estimation of urban extents by the night-time lights data. Globally, the coastal lights were reduced in size by an average of six percent when clipped to the coast. The non-coastal lights were also reduced by six percent for consistency. The remaining land area was included in the rural land area calculations."
+  },
+  {
+    "NOTES":"Known Errors / Omissions"
+  },
+  {
+    "NOTES":"Countries shaded in green are missing in the GRUMP alpha dataset and thus have their data set to missing. These countries will be included in GRUMP beta."
+  },
+  {
+    "NOTES":"Records in purple have possible errors in the GRUMP alpha dataset. Some of the countries are represented as having no urban areas (settlements with a population of 5000 or larger) in the GRUMP alpha urban extents grid, which could be legitimate, but they have been flagged as needing verification in the beta version of GRUMP. Other countries were flagged becaues of other data issues needing investigation."
+  },
+  {
+    "NOTES":"Post GRUMP-alpha data use"
+  },
+  {
+    "NOTES":"The African data represents information including updates to the GRUMP alpha dataset that will be included in the GRUMP beta release of the data products."
+  }
+]

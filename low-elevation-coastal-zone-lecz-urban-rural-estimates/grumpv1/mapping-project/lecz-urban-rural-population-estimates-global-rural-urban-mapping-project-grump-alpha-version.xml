@@ -1,0 +1,1770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Intergraph Consulting Pvt Ltd, Hyderabad. (India)-->
+<smXML:MD_Metadata xmlns:smXML="http://www.isotc211.org/smXML">
+	<fileIdentifier>
+		<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Low Elevation Coast Zone (LECZ) Urban-Rural Population Estimates, Global Rural-Urban Mapping Project (GRUMP), Alpha Version</scXML:CharacterString>
+	</fileIdentifier>
+	<contact>
+		<smXML:CI_ResponsibleParty>
+			<individualName>
+				<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">CIESIN Metadata Services</scXML:CharacterString>
+			</individualName>
+			<organisationName>
+				<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">CIESIN Metadata Administration</scXML:CharacterString>
+			</organisationName>
+			<positionName>
+				<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML"></scXML:CharacterString>
+			</positionName>
+			<contactInfo>
+				<smXML:CI_Contact>
+					<phone>
+						<smXML:CI_Telephone>
+							<voice>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">+1 845-365-8988</scXML:CharacterString>
+							</voice>
+							<facsimile>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">+1 845-365-8922</scXML:CharacterString>
+							</facsimile>
+						</smXML:CI_Telephone>
+					</phone>
+					<address>
+						<smXML:CI_Address>
+							<deliveryPoint>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">61 Route 9W
+
+PO Box 1000</scXML:CharacterString>
+							</deliveryPoint>
+							<city>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Palisades</scXML:CharacterString>
+							</city>
+							<administrativeArea>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">NY</scXML:CharacterString>
+							</administrativeArea>
+							<postalCode>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">10964</scXML:CharacterString>
+							</postalCode>
+							<electronicMailAddress>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">metadata@ciesin.columbia.edu</scXML:CharacterString>
+							</electronicMailAddress>
+						</smXML:CI_Address>
+					</address>
+					<hoursOfService>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">9 am to 5 pm US Eastern Standard Time, Monday through Friday</scXML:CharacterString>
+					</hoursOfService>
+				</smXML:CI_Contact>
+			</contactInfo>
+			<role>
+				<smXML:CI_RoleCode codeList="../ISO19139/resources/codeList.xml?CI_RoleCode" codeListValue="pointOfContact">pointOfContact</smXML:CI_RoleCode>
+			</role>
+		</smXML:CI_ResponsibleParty>
+	</contact>
+	<dateStamp>
+		<scXML:Date xmlns:scXML="http://www.isotc211.org/scXML">20070301</scXML:Date>
+	</dateStamp>
+	<metadataStandardName>
+		<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">ISO-19115:2003(E)</scXML:CharacterString>
+	</metadataStandardName>
+	<metadataStandardVersion>
+		<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">FGDC Dataset Metadata Profile -- IMGS, Version 1.0</scXML:CharacterString>
+	</metadataStandardVersion>
+	<!--IdentificationInfo-->
+	<identificationInfo>
+		<smXML:MD_DataIdentification>
+			<citation>
+				<smXML:CI_Citation>
+					<title>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Low Elevation Coast Zone (LECZ) Urban-Rural Population Estimates, Global Rural-Urban Mapping Project (GRUMP), Alpha Version</scXML:CharacterString>
+					</title>
+					<date>
+						<smXML:CI_Date>
+							<date>
+								<scXML:Date xmlns:scXML="http://www.isotc211.org/scXML">2007</scXML:Date>
+							</date>
+							<dateType>
+								<smXML:CI_DateTypeCode codeList="../ISO19139/resources/codeList.xml?CI_DateTypeCode" codeListValue="publication">publication</smXML:CI_DateTypeCode>
+							</dateType>
+						</smXML:CI_Date>
+					</date>
+					<edition>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML"></scXML:CharacterString>
+					</edition>
+					<identifier>
+						<smXML:MD_Identifier>
+							<code>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">CIESIN_SEDAC_GRUMP_LECZ</scXML:CharacterString>
+							</code>
+						</smXML:MD_Identifier>
+					</identifier>
+					<citedResponsibleParty>
+						<smXML:CI_ResponsibleParty>
+							<individualName>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">McGranahan, G., Balk , D. and Anderson, B.</scXML:CharacterString>
+							</individualName>
+							<role>
+								<smXML:CI_RoleCode codeList="../ISO19139/resources/codeList.xml?CI_RoleCode" codeListValue="originator">originator</smXML:CI_RoleCode>
+							</role>
+						</smXML:CI_ResponsibleParty>
+					</citedResponsibleParty>
+					<citedResponsibleParty>
+						<smXML:CI_ResponsibleParty>
+							<individualName>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Socioeconomic Data and Applications Center (SEDAC), Columbia University</scXML:CharacterString>
+							</individualName>
+							<role>
+								<smXML:CI_RoleCode codeList="../ISO19139/resources/codeList.xml?CI_RoleCode" codeListValue="publisher">publisher</smXML:CI_RoleCode>
+							</role>
+						</smXML:CI_ResponsibleParty>
+					</citedResponsibleParty>
+					<presentationForm>
+						<smXML:CI_PresentationFormCode codeList="../ISO19139/resources/codeList.xml?CI_PresentationFormCode" codeListValue=""/>
+					</presentationForm>
+					<series>
+						<smXML:CI_Series>
+							<name>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML"></scXML:CharacterString>
+							</name>
+							<issueIdentification>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML"></scXML:CharacterString>
+							</issueIdentification>
+						</smXML:CI_Series>
+					</series>
+					<otherCitationDetails>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML"></scXML:CharacterString>
+					</otherCitationDetails>
+					<collectiveTitle>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">The Rising Tide: Assessing the Risks of Climate Change and Human Settlements in  Low Eevation Coastal Zones#</scXML:CharacterString>
+					</collectiveTitle>
+				</smXML:CI_Citation>
+			</citation>
+			<abstract>
+				<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">The Low Elevation Coastal Zone (LECZ) Urban-Rural Estimates consists of country-level estimates of urban, rural and total population and land area country-wide and in the LECZ, if applicable. Additionally, the dataset provides the number of urban extents, their population and land area that intersect the LECZ, by city-size population classifications of &lt;100,000, 100,000 to 500,000, 500,000 to 1,000,000, 1,000,000 to 5,000,000, and 5,000,000 +. All estimates are based on GRUMP alpha data products. The LECZ was generated using SRTM Digital Elevation Model data and includes all land area that is contiguous with the coast and 10 meters or less in elevation.  All grids used for population, land area, urban mask, and LECZ were of 1 km (30 arc-second) resolution. This dataset is produced by the Columbia  University Center for International Earth Science Information Network (CIESIN) in collaboration with the International Institute for Environment and Development (IIED).</scXML:CharacterString>
+			</abstract>
+			<purpose>
+				<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">To estimate, in a globally consistent manner, urban and rural population, land area and categories of urban areas (by city-size) that are located in low elevation coastal regions that are at potential risk from sea-level rise, stronger storms and other seaward hazards induced by climate change.</scXML:CharacterString>
+			</purpose>
+			<status>
+				<smXML:MD_ProgressCode codeList="../ISO19139/resources/codeList.xml?MD_ProgressCode" codeListValue="underDevelopment">underDevelopment</smXML:MD_ProgressCode>
+			</status>
+			<pointOfContact>
+				<smXML:CI_ResponsibleParty>
+					<individualName>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML"></scXML:CharacterString>
+					</individualName>
+					<organisationName>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Socioeconomic Data and Applications Center (SEDAC) User Services</scXML:CharacterString>
+					</organisationName>
+					<positionName>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML"></scXML:CharacterString>
+					</positionName>
+					<contactInfo>
+						<smXML:CI_Contact>
+							<phone>
+								<smXML:CI_Telephone>
+									<voice>
+										<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">+1 845-365-8920</scXML:CharacterString>
+									</voice>
+									<facsimile>
+										<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">+1 845-365-8922</scXML:CharacterString>
+									</facsimile>
+								</smXML:CI_Telephone>
+							</phone>
+							<address>
+								<smXML:CI_Address>
+									<deliveryPoint>
+										<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">CIESIN, Columbia University, 61 Route 9W, P.O. Box 1000</scXML:CharacterString>
+									</deliveryPoint>
+									<city>
+										<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Palisades</scXML:CharacterString>
+									</city>
+									<administrativeArea>
+										<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">NY</scXML:CharacterString>
+									</administrativeArea>
+									<postalCode>
+										<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">10964</scXML:CharacterString>
+									</postalCode>
+									<electronicMailAddress>
+										<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">ciesin.info@ciesin.columbia.edu</scXML:CharacterString>
+									</electronicMailAddress>
+								</smXML:CI_Address>
+							</address>
+						</smXML:CI_Contact>
+					</contactInfo>
+					<role>
+						<smXML:CI_RoleCode codeList="../ISO19139/resources/codeList.xml?CI_RoleCode" codeListValue="pointOfContact">pointOfContact</smXML:CI_RoleCode>
+					</role>
+				</smXML:CI_ResponsibleParty>
+			</pointOfContact>
+			<descriptiveKeywords>
+				<smXML:MD_Keywords>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">CIESIN &gt; Population Dynamics &gt; Human Settlements &gt; Rural Areas</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">CIESIN &gt; Population Dynamics &gt; Human Settlements &gt; Urbanization</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">CIESIN &gt; Environmental Protection &gt; Water Forms &gt; Coastal Zones</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">CIESIN &gt; Population Dynamics &gt; Demographic Characteristics &gt; Population Distribution</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">CIESIN &gt; Population Dynamics &gt; Demographic Characteristics &gt; Population Size</scXML:CharacterString>
+					</keyword>
+					<type>
+						<smXML:MD_KeywordTypeCode codeList="../ISO19139/resources/codeList.xml?MD_KeywordTypeCode" codeListValue="theme"/>
+					</type>
+					<thesaurusName>
+						<smXML:CI_Citation>
+							<title>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">CIESIN Indexing Vocabulary Version 2.1 (GCMD Format)</scXML:CharacterString>
+							</title>
+							<date>
+								<smXML:CI_Date>
+									<date>
+										<scXML:Date xmlns:scXML="http://www.isotc211.org/scXML">2007</scXML:Date>
+									</date>
+									<dateType>
+										<smXML:CI_DateTypeCode codeList="../ISO19139/resources/codeList.xml?CI_DateTypeCode" codeListValue="publication">publication</smXML:CI_DateTypeCode>
+									</dateType>
+								</smXML:CI_Date>
+							</date>
+						</smXML:CI_Citation>
+					</thesaurusName>
+				</smXML:MD_Keywords>
+			</descriptiveKeywords>
+			<descriptiveKeywords>
+				<smXML:MD_Keywords>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">EARTH SCIENCE &gt; Human Dimensions &gt; Population &gt; Population Distribution</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">EARTH SCIENCE &gt; Human Dimensions &gt; Population &gt; Population Size</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">EARTH SCIENCE &gt; Oceans &gt; Coastal Processes &gt; Coastal Elevation</scXML:CharacterString>
+					</keyword>
+					<type>
+						<smXML:MD_KeywordTypeCode codeList="../ISO19139/resources/codeList.xml?MD_KeywordTypeCode" codeListValue="theme"/>
+					</type>
+					<thesaurusName>
+						<smXML:CI_Citation>
+							<title>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">GCMD Parameter Valids</scXML:CharacterString>
+							</title>
+							<date>
+								<smXML:CI_Date>
+									<date>
+										<scXML:Date xmlns:scXML="http://www.isotc211.org/scXML">2007</scXML:Date>
+									</date>
+									<dateType>
+										<smXML:CI_DateTypeCode codeList="../ISO19139/resources/codeList.xml?CI_DateTypeCode" codeListValue="publication">publication</smXML:CI_DateTypeCode>
+									</dateType>
+								</smXML:CI_Date>
+							</date>
+						</smXML:CI_Citation>
+					</thesaurusName>
+				</smXML:MD_Keywords>
+			</descriptiveKeywords>
+			<descriptiveKeywords>
+				<smXML:MD_Keywords>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Cities</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Global Population</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Gridded Population of the World</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">GRUMP</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Population Density</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Population Estimates</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Population Projections</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Population Studies</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Urban Areas</scXML:CharacterString>
+					</keyword>
+					<type>
+						<smXML:MD_KeywordTypeCode codeList="../ISO19139/resources/codeList.xml?MD_KeywordTypeCode" codeListValue="theme"/>
+					</type>
+					<thesaurusName>
+						<smXML:CI_Citation>
+							<title>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">General</scXML:CharacterString>
+							</title>
+							<date>
+								<smXML:CI_Date>
+									<date>
+										<scXML:Date xmlns:scXML="http://www.isotc211.org/scXML">2007</scXML:Date>
+									</date>
+									<dateType>
+										<smXML:CI_DateTypeCode codeList="../ISO19139/resources/codeList.xml?CI_DateTypeCode" codeListValue="publication">publication</smXML:CI_DateTypeCode>
+									</dateType>
+								</smXML:CI_Date>
+							</date>
+						</smXML:CI_Citation>
+					</thesaurusName>
+				</smXML:MD_Keywords>
+			</descriptiveKeywords>
+			<descriptiveKeywords>
+				<smXML:MD_Keywords>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Population</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Sustainability</scXML:CharacterString>
+					</keyword>
+					<type>
+						<smXML:MD_KeywordTypeCode codeList="../ISO19139/resources/codeList.xml?MD_KeywordTypeCode" codeListValue="theme"/>
+					</type>
+					<thesaurusName>
+						<smXML:CI_Citation>
+							<title>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">WDC Theme</scXML:CharacterString>
+							</title>
+							<date>
+								<smXML:CI_Date>
+									<date>
+										<scXML:Date xmlns:scXML="http://www.isotc211.org/scXML">2007</scXML:Date>
+									</date>
+									<dateType>
+										<smXML:CI_DateTypeCode codeList="../ISO19139/resources/codeList.xml?CI_DateTypeCode" codeListValue="publication">publication</smXML:CI_DateTypeCode>
+									</dateType>
+								</smXML:CI_Date>
+							</date>
+						</smXML:CI_Citation>
+					</thesaurusName>
+				</smXML:MD_Keywords>
+			</descriptiveKeywords>
+			<descriptiveKeywords>
+				<smXML:MD_Keywords>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Population</scXML:CharacterString>
+					</keyword>
+					<type>
+						<smXML:MD_KeywordTypeCode codeList="../ISO19139/resources/codeList.xml?MD_KeywordTypeCode" codeListValue="theme"/>
+					</type>
+					<thesaurusName>
+						<smXML:CI_Citation>
+							<title>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">EI Gateway Vocabulary</scXML:CharacterString>
+							</title>
+							<date>
+								<smXML:CI_Date>
+									<date>
+										<scXML:Date xmlns:scXML="http://www.isotc211.org/scXML">2007</scXML:Date>
+									</date>
+									<dateType>
+										<smXML:CI_DateTypeCode codeList="../ISO19139/resources/codeList.xml?CI_DateTypeCode" codeListValue="publication">publication</smXML:CI_DateTypeCode>
+									</dateType>
+								</smXML:CI_Date>
+							</date>
+						</smXML:CI_Citation>
+					</thesaurusName>
+				</smXML:MD_Keywords>
+			</descriptiveKeywords>
+			<descriptiveKeywords>
+				<smXML:MD_Keywords>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Population</scXML:CharacterString>
+					</keyword>
+					<type>
+						<smXML:MD_KeywordTypeCode codeList="../ISO19139/resources/codeList.xml?MD_KeywordTypeCode" codeListValue="theme"/>
+					</type>
+					<thesaurusName>
+						<smXML:CI_Citation>
+							<title>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">SEDAC Topic</scXML:CharacterString>
+							</title>
+							<date>
+								<smXML:CI_Date>
+									<date>
+										<scXML:Date xmlns:scXML="http://www.isotc211.org/scXML">2007</scXML:Date>
+									</date>
+									<dateType>
+										<smXML:CI_DateTypeCode codeList="../ISO19139/resources/codeList.xml?CI_DateTypeCode" codeListValue="publication">publication</smXML:CI_DateTypeCode>
+									</dateType>
+								</smXML:CI_Date>
+							</date>
+						</smXML:CI_Citation>
+					</thesaurusName>
+				</smXML:MD_Keywords>
+			</descriptiveKeywords>
+			<descriptiveKeywords>
+				<smXML:MD_Keywords>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">GIS</scXML:CharacterString>
+					</keyword>
+					<type>
+						<smXML:MD_KeywordTypeCode codeList="../ISO19139/resources/codeList.xml?MD_KeywordTypeCode" codeListValue="theme"/>
+					</type>
+					<thesaurusName>
+						<smXML:CI_Citation>
+							<title>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">GIS Format</scXML:CharacterString>
+							</title>
+							<date>
+								<smXML:CI_Date>
+									<date>
+										<scXML:Date xmlns:scXML="http://www.isotc211.org/scXML">2007</scXML:Date>
+									</date>
+									<dateType>
+										<smXML:CI_DateTypeCode codeList="../ISO19139/resources/codeList.xml?CI_DateTypeCode" codeListValue="publication">publication</smXML:CI_DateTypeCode>
+									</dateType>
+								</smXML:CI_Date>
+							</date>
+						</smXML:CI_Citation>
+					</thesaurusName>
+				</smXML:MD_Keywords>
+			</descriptiveKeywords>
+			<descriptiveKeywords>
+				<smXML:MD_Keywords>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Global Rural-Urban Mapping Project (GRUMP)</scXML:CharacterString>
+					</keyword>
+					<type>
+						<smXML:MD_KeywordTypeCode codeList="../ISO19139/resources/codeList.xml?MD_KeywordTypeCode" codeListValue="theme"/>
+					</type>
+					<thesaurusName>
+						<smXML:CI_Citation>
+							<title>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Project</scXML:CharacterString>
+							</title>
+							<date>
+								<smXML:CI_Date>
+									<date>
+										<scXML:Date xmlns:scXML="http://www.isotc211.org/scXML">2007</scXML:Date>
+									</date>
+									<dateType>
+										<smXML:CI_DateTypeCode codeList="../ISO19139/resources/codeList.xml?CI_DateTypeCode" codeListValue="publication">publication</smXML:CI_DateTypeCode>
+									</dateType>
+								</smXML:CI_Date>
+							</date>
+						</smXML:CI_Citation>
+					</thesaurusName>
+				</smXML:MD_Keywords>
+			</descriptiveKeywords>
+			<descriptiveKeywords>
+				<smXML:MD_Keywords>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Coastlines</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Human Population Density</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Human Settlements</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Population Distribution</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Urban Populations</scXML:CharacterString>
+					</keyword>
+					<type>
+						<smXML:MD_KeywordTypeCode codeList="../ISO19139/resources/codeList.xml?MD_KeywordTypeCode" codeListValue="theme"/>
+					</type>
+					<thesaurusName>
+						<smXML:CI_Citation>
+							<title>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">CSA-NBII Biocomplexity</scXML:CharacterString>
+							</title>
+							<date>
+								<smXML:CI_Date>
+									<date>
+										<scXML:Date xmlns:scXML="http://www.isotc211.org/scXML">2007</scXML:Date>
+									</date>
+									<dateType>
+										<smXML:CI_DateTypeCode codeList="../ISO19139/resources/codeList.xml?CI_DateTypeCode" codeListValue="publication">publication</smXML:CI_DateTypeCode>
+									</dateType>
+								</smXML:CI_Date>
+							</date>
+						</smXML:CI_Citation>
+					</thesaurusName>
+				</smXML:MD_Keywords>
+			</descriptiveKeywords>
+			<descriptiveKeywords>
+				<smXML:MD_Keywords>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Northeast Information Node (NIN)</scXML:CharacterString>
+					</keyword>
+					<type>
+						<smXML:MD_KeywordTypeCode codeList="../ISO19139/resources/codeList.xml?MD_KeywordTypeCode" codeListValue="theme"/>
+					</type>
+					<thesaurusName>
+						<smXML:CI_Citation>
+							<title>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">NBII Node</scXML:CharacterString>
+							</title>
+							<date>
+								<smXML:CI_Date>
+									<date>
+										<scXML:Date xmlns:scXML="http://www.isotc211.org/scXML">2007</scXML:Date>
+									</date>
+									<dateType>
+										<smXML:CI_DateTypeCode codeList="../ISO19139/resources/codeList.xml?CI_DateTypeCode" codeListValue="publication">publication</smXML:CI_DateTypeCode>
+									</dateType>
+								</smXML:CI_Date>
+							</date>
+						</smXML:CI_Citation>
+					</thesaurusName>
+				</smXML:MD_Keywords>
+			</descriptiveKeywords>
+			<descriptiveKeywords>
+				<smXML:MD_Keywords>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Planning/Cadastre</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Society</scXML:CharacterString>
+					</keyword>
+					<type>
+						<smXML:MD_KeywordTypeCode codeList="../ISO19139/resources/codeList.xml?MD_KeywordTypeCode" codeListValue="theme"/>
+					</type>
+					<thesaurusName>
+						<smXML:CI_Citation>
+							<title>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">ISO Topic</scXML:CharacterString>
+							</title>
+							<date>
+								<smXML:CI_Date>
+									<date>
+										<scXML:Date xmlns:scXML="http://www.isotc211.org/scXML">2007</scXML:Date>
+									</date>
+									<dateType>
+										<smXML:CI_DateTypeCode codeList="../ISO19139/resources/codeList.xml?CI_DateTypeCode" codeListValue="publication">publication</smXML:CI_DateTypeCode>
+									</dateType>
+								</smXML:CI_Date>
+							</date>
+						</smXML:CI_Citation>
+					</thesaurusName>
+				</smXML:MD_Keywords>
+			</descriptiveKeywords>
+			<descriptiveKeywords>
+				<smXML:MD_Keywords>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Climate</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Hazards</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Population</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Poverty</scXML:CharacterString>
+					</keyword>
+					<type>
+						<smXML:MD_KeywordTypeCode codeList="../ISO19139/resources/codeList.xml?MD_KeywordTypeCode" codeListValue="theme"/>
+					</type>
+					<thesaurusName>
+						<smXML:CI_Citation>
+							<title>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">WDC Theme</scXML:CharacterString>
+							</title>
+							<date>
+								<smXML:CI_Date>
+									<date>
+										<scXML:Date xmlns:scXML="http://www.isotc211.org/scXML">2007</scXML:Date>
+									</date>
+									<dateType>
+										<smXML:CI_DateTypeCode codeList="../ISO19139/resources/codeList.xml?CI_DateTypeCode" codeListValue="publication">publication</smXML:CI_DateTypeCode>
+									</dateType>
+								</smXML:CI_Date>
+							</date>
+						</smXML:CI_Citation>
+					</thesaurusName>
+				</smXML:MD_Keywords>
+			</descriptiveKeywords>
+			<descriptiveKeywords>
+				<smXML:MD_Keywords>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Continent/Region &gt; Africa</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Continent/Region &gt; Amazonia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Continent/Region &gt; Asia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Continent/Region &gt; Australia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Continent/Region &gt; Caribbean</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Continent/Region &gt; Central Africa</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Continent/Region &gt; Central America</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Continent/Region &gt; East Asia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Continent/Region &gt; Equatorial</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Continent/Region &gt; Europe</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Continent/Region &gt; Global</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Continent/Region &gt; Middle East</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Continent/Region &gt; Mid-Latitude</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Continent/Region &gt; North Africa</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Continent/Region &gt; North America</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Continent/Region &gt; Oceania</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Continent/Region &gt; Pacific Islands</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Continent/Region &gt; Polar</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Continent/Region &gt; South America</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Continent/Region &gt; South Asia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Continent/Region &gt; South Pacific Islands</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Continent/Region &gt; Southeast Asia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Continent/Region &gt; West Africa</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Afghanistan</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Albania</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Algeria</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; American Samoa</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Andorra</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Angola</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Anguilla</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Antigua and Barbuda</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Argentina</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Armenia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Aruba</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Australia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Austria</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Azerbaijan</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Bahamas</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Bahrain</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Bangladesh</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Barbados</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Belarus</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Belgium</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Belize</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Benin</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Bermuda</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Bhutan</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Bolivia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Bosnia and Herzegovina</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Botswana</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Brazil</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; British Virgin Islands</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Brunei</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Bulgaria</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Burkina Faso</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Burundi</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Cambodia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Cameroon</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Canada</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Cape Verde</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Cayman Islands</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Central African Republic</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Chad</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Chile</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; China</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Colombia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Comoros</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Cook Islands</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Costa Rica</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Cote D'Ivoire</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Croatia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Cuba</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Cyprus</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Czech Republic</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Democratic Republic of the Congo</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Denmark</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Djibouti</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Dominica</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Dominican Republic</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Ecuador</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Egypt</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; El Salvador</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Equatorial Guinea</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Eritrea</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Estonia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Ethiopia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Faeroe Islands</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Falkland Islands</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Finland</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; France</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; French Guiana</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; French Polynesia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Gabon</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Gambia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Georgia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Germany</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Ghana</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Gibraltar</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Greece</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Greenland</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Grenada</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Guadeloupe</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Guam</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Guatemala</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Guinea</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Guinea-Bissau</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Guyana</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Haiti</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Honduras</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Hong Kong</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Hungary</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Iceland</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; India</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Indonesia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Iran</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Iraq</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Ireland</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Israel</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Italy</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Jamaica</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Japan</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Jordan</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Kazakhstan</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Kenya</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Kiribati</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Kuwait</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Kyrgyzstan</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Laos</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Latvia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Lebanon</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Lesotho</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Liberia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Libya</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Liechtenstein</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Lithuania</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Luxembourg</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Macau</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Macedonia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Madagascar</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Malawi</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Malaysia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Maldives</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Mali</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Malta</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Marshall Islands</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Martinique</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Mauritania</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Mauritius</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Mexico</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Micronesia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Moldova</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Monaco</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Mongolia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Montserrat</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Morocco</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Mozambique</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Myanmar</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Namibia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Nauru</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Nepal</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Netherlands</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Netherlands  Antilles</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; New Caledonia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; New Zealand</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Nicaragua</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Niger</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Nigeria</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; North Korea</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Northern Mariana Islands</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Norway</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Oman</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Pakistan</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Palau</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Palestine</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Panama</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Papua New Guinea</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Paraguay</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Peru</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Philippines</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Pitcairn Islands</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Poland</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Portugal</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Puerto Rico</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Qatar</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Republic of the Congo</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Reunion</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Romania</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Russia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Rwanda</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Saint Helena</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Saint Kitts and Nevis</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Saint Lucia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Saint Pierre and Miquelon</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Saint Vincent and The Grenadines</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Samoa</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Sao Tome and Principe</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Saudi Arabia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Senegal</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Serbia and Montenegro</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Seychelles</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Sierra Leone</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Singapore</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Slovakia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Slovenia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Solomon Islands</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Somalia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; South Africa</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; South Korea</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Spain</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Sri Lanka</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Sudan</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Suriname</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Svalbard</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Swaziland</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Sweden</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Switzerland</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Syria</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Tajikistan</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Tanzania</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Thailand</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Togo</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Tonga</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Trinidad and Tobago</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Tunisia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Turkey</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Turkmenistan</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Turks and Caicos Islands</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Tuvalu</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Uganda</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Ukraine</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; United Arab Emirates</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; United Kingdom</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; United States</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Uruguay</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; US Virgin Islands</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Uzbekistan</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Vanuatu</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Venezuela</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Vietnam</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Wallis and Futuna Islands</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Yemen</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Yugoslavia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Zambia</scXML:CharacterString>
+					</keyword>
+					<keyword>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Country/Island &gt; Zimbabwe</scXML:CharacterString>
+					</keyword>
+					<type>
+						<smXML:MD_KeywordTypeCode codeList="../ISO19139/resources/codeList.xml?MD_KeywordTypeCode" codeListValue="place"/>
+					</type>
+					<thesaurusName>
+						<smXML:CI_Citation>
+							<title>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">CIESIN Location Terms, version 2.0</scXML:CharacterString>
+							</title>
+							<date>
+								<smXML:CI_Date>
+									<date>
+										<scXML:Date xmlns:scXML="http://www.isotc211.org/scXML">2007</scXML:Date>
+									</date>
+									<dateType>
+										<smXML:CI_DateTypeCode codeList="../ISO19139/resources/codeList.xml?CI_DateTypeCode" codeListValue="publication">publication</smXML:CI_DateTypeCode>
+									</dateType>
+								</smXML:CI_Date>
+							</date>
+						</smXML:CI_Citation>
+					</thesaurusName>
+				</smXML:MD_Keywords>
+			</descriptiveKeywords>
+			<graphicOverview>
+				<smXML:MD_BrowseGraphic>
+					<fileName>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">http://sedac.ciesin.columbia.edu/gpw/maps/lecz/Bangladesh_10m_LECZ_and_population_density.gif</scXML:CharacterString>
+					</fileName>
+					<fileDescription>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Thumbnail Image</scXML:CharacterString>
+					</fileDescription>
+					<fileType>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">GIF</scXML:CharacterString>
+					</fileType>
+				</smXML:MD_BrowseGraphic>
+			</graphicOverview>
+			<graphicOverview>
+				<smXML:MD_BrowseGraphic>
+					<fileName>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">http://sedac.ciesin.columbia.edu/gpw/maps/lecz/Bangladesh_10m_LECZ_and_population_density.jpg</scXML:CharacterString>
+					</fileName>
+					<fileDescription>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Larger Image</scXML:CharacterString>
+					</fileDescription>
+					<fileType>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">JPEG</scXML:CharacterString>
+					</fileType>
+				</smXML:MD_BrowseGraphic>
+			</graphicOverview>
+			<graphicOverview>
+				<smXML:MD_BrowseGraphic>
+					<fileName>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">http://sedac.ciesin.columbia.edu/gpw/maps/lecz/Bangladesh_10m_LECZ_and_population_density.pdf</scXML:CharacterString>
+					</fileName>
+					<fileDescription>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Largest Image</scXML:CharacterString>
+					</fileDescription>
+					<fileType>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">PDF</scXML:CharacterString>
+					</fileType>
+				</smXML:MD_BrowseGraphic>
+			</graphicOverview>
+			<resourceConstraints>
+				<smXML:MD_LegalConstraints>
+					<accessConstraints>
+						<smXML:MD_RestrictionCode codeList="../ISO19139/resources/codeList.xml?MD_RestrictionCode" codeListValue="otherRestrictions"/>
+					</accessConstraints>
+					<useConstraints>
+						<smXML:MD_RestrictionCode codeList="../ISO19139/resources/codeList.xml?MD_RestrictionCode" codeListValue="otherRestrictions"/>
+					</useConstraints>
+					<otherConstraints>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Access Constraints:CIESIN offers unrestricted access and use of data without charge, unless specified in the documentation for particular data. All other rights are reserved.#Use constraints:The Trustees of Columbia University in the City of New York hold the copyright of this dataset. Users are prohibited from any commercial, non-free resale, or redistribution without explicit written permission from CIESIN. Users should acknowledge CIESIN as the source used in the creation of any reports, publications, new datasets, derived products, or services resulting from the use of this dataset. CIESIN also requests reprints of any publications and notification of any redistributing efforts.</scXML:CharacterString>
+					</otherConstraints>
+				</smXML:MD_LegalConstraints>
+			</resourceConstraints>
+			<resourceMaintenance>
+				<smXML:MD_MaintenanceInformation>
+					<maintenanceAndUpdateFrequency>
+						<smXML:MD_MaintenanceFrequencyCode codeList="../ISO19139/resources/codeList.xml?MD_MaintenanceFrequencyCode" codeListValue="asNeeded"/>
+					</maintenanceAndUpdateFrequency>
+				</smXML:MD_MaintenanceInformation>
+			</resourceMaintenance>
+			<extent>
+				<smXML:EX_Extent>
+					<geographicElement>
+						<smXML:EX_GeographicBoundingBox>
+							<westBoundLongitude>
+								<scXML:approximateLongitude xmlns:scXML="http://www.isotc211.org/scXML">-180.000000</scXML:approximateLongitude>
+							</westBoundLongitude>
+							<eastBoundLongitude>
+								<scXML:approximateLongitude xmlns:scXML="http://www.isotc211.org/scXML">180.000000</scXML:approximateLongitude>
+							</eastBoundLongitude>
+							<southBoundLatitude>
+								<scXML:approximateLatitude xmlns:scXML="http://www.isotc211.org/scXML">-58.000000</scXML:approximateLatitude>
+							</southBoundLatitude>
+							<northBoundLatitude>
+								<scXML:approximateLatitude xmlns:scXML="http://www.isotc211.org/scXML">85.000000</scXML:approximateLatitude>
+							</northBoundLatitude>
+						</smXML:EX_GeographicBoundingBox>
+					</geographicElement>
+				</smXML:EX_Extent>
+			</extent>
+			<extent>
+				<smXML:EX_Extent>
+					<description>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML"></scXML:CharacterString>
+					</description>
+					<temporalElement>
+						<smXML:EX_TemporalExtent>
+							<extent>
+								<gml:TimeInstant xmlns:gml="http://www.opengis.net/gml">
+									<gml:timePosition>2000</gml:timePosition>
+								</gml:TimeInstant>
+							</extent>
+						</smXML:EX_TemporalExtent>
+					</temporalElement>
+				</smXML:EX_Extent>
+			</extent>
+		</smXML:MD_DataIdentification>
+	</identificationInfo>
+	<!--MetadataConstraints-->
+	<!--DataQualityInfo-->
+	<dataQualityInfo>
+		<smXML:DQ_DataQuality>
+			<scope>
+				<smXML:DQ_Scope>
+					<level>
+						<smXML:MD_ScopeCode codeList="../ISO19139/resources/codeList.xml?MD_ScopeCode" codeListValue="dataset"/>
+					</level>
+				</smXML:DQ_Scope>
+			</scope>
+			<lineage>
+				<smXML:LI_Lineage>
+					<source>
+						<smXML:LI_Source>
+							<description>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML"></scXML:CharacterString>
+							</description>
+							<scaleDenominator>
+								<smXML:MD_RepresentativeFraction>
+									<denominator>
+										<scXML:positiveInteger xmlns:scXML="http://www.isotc211.org/scXML"></scXML:positiveInteger>
+									</denominator>
+								</smXML:MD_RepresentativeFraction>
+							</scaleDenominator>
+							<sourceCitation>
+								<smXML:CI_Citation>
+									<title>
+										<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">The Rising Tide: Assessing the Risks of Climate Change and Human Settlements in  Low Eevation Coastal Zones</scXML:CharacterString>
+									</title>
+									<date>
+										<smXML:CI_Date>
+											<date>
+												<scXML:Date xmlns:scXML="http://www.isotc211.org/scXML">2007</scXML:Date>
+											</date>
+											<dateType>
+												<smXML:CI_DateTypeCode codeList="../ISO19139/resources/codeList.xml?CI_DateTypeCode" codeListValue="publication">publication</smXML:CI_DateTypeCode>
+											</dateType>
+										</smXML:CI_Date>
+									</date>
+									<edition>
+										<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML"></scXML:CharacterString>
+									</edition>
+									<identifier>
+										<smXML:MD_Identifier>
+											<code>
+												<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">CIESIN_SEDAC_GRUMP_LECZ</scXML:CharacterString>
+											</code>
+										</smXML:MD_Identifier>
+									</identifier>
+									<citedResponsibleParty>
+										<smXML:CI_ResponsibleParty>
+											<individualName>
+												<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">McGranahan, G., Balk , D. and  Anderson, B.</scXML:CharacterString>
+											</individualName>
+											<role>
+												<smXML:CI_RoleCode codeList="../ISO19139/resources/codeList.xml?CI_RoleCode" codeListValue="originator">originator</smXML:CI_RoleCode>
+											</role>
+										</smXML:CI_ResponsibleParty>
+									</citedResponsibleParty>
+									<citedResponsibleParty>
+										<smXML:CI_ResponsibleParty>
+											<individualName>
+												<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">International Institute for Environment and Development (IIED)</scXML:CharacterString>
+											</individualName>
+											<role>
+												<smXML:CI_RoleCode codeList="../ISO19139/resources/codeList.xml?CI_RoleCode" codeListValue="publisher">publisher</smXML:CI_RoleCode>
+											</role>
+										</smXML:CI_ResponsibleParty>
+									</citedResponsibleParty>
+									<presentationForm>
+										<smXML:CI_PresentationFormCode codeList="../ISO19139/resources/codeList.xml?CI_PresentationFormCode" codeListValue=""/>
+									</presentationForm>
+									<series>
+										<smXML:CI_Series>
+											<name>
+												<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Environment &amp; Urbanization</scXML:CharacterString>
+											</name>
+											<issueIdentification>
+												<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Vol 19(1)</scXML:CharacterString>
+											</issueIdentification>
+										</smXML:CI_Series>
+									</series>
+									<otherCitationDetails>
+										<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML"></scXML:CharacterString>
+									</otherCitationDetails>
+									<collectiveTitle>
+										<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML"></scXML:CharacterString>
+									</collectiveTitle>
+								</smXML:CI_Citation>
+							</sourceCitation>
+							<sourceExtent>
+								<smXML:EX_Extent>
+									<description>
+										<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML"></scXML:CharacterString>
+									</description>
+									<temporalElement>
+										<smXML:EX_TemporalExtent>
+											<extent></extent>
+										</smXML:EX_TemporalExtent>
+									</temporalElement>
+								</smXML:EX_Extent>
+							</sourceExtent>
+						</smXML:LI_Source>
+					</source>
+				</smXML:LI_Lineage>
+			</lineage>
+		</smXML:DQ_DataQuality>
+	</dataQualityInfo>
+	<!--Metadata maintenance-->
+	<metadataMaintenance>
+		<smXML:MD_MaintenanceInformation>
+			<maintenanceAndUpdateFrequency>
+				<smXML:MD_MaintenanceFrequencyCode codeList="../ISO19139/resources/codeList.xml?MD_MaintenanceFrequencyCode" codeListValue="asNeeded"/>
+			</maintenanceAndUpdateFrequency>
+			<dateOfNextUpdate>
+				<scXML:Date xmlns:scXML="http://www.isotc211.org/scXML">20080430</scXML:Date>
+			</dateOfNextUpdate>
+			<maintenanceNote>
+				<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">20070430(FGDC7.2)</scXML:CharacterString>
+			</maintenanceNote>
+		</smXML:MD_MaintenanceInformation>
+	</metadataMaintenance>
+	<!--Spatial Representation Info-->
+	<!--Reference system info-->
+	<referenceSystemInfo>
+		<smXML:MD_ReferenceSystem>
+			<referenceSystemIdentifier>
+				<smXML:RS_Identifier>
+					<code>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">FGDC geographic</scXML:CharacterString>
+					</code>
+				</smXML:RS_Identifier>
+			</referenceSystemIdentifier>
+		</smXML:MD_ReferenceSystem>
+	</referenceSystemInfo>
+	<referenceSystemInfo>
+		<smXML:MD_CRS>
+			<ellipsoid>
+				<smXML:RS_Identifier>
+					<code>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">WGS84</scXML:CharacterString>
+					</code>
+				</smXML:RS_Identifier>
+			</ellipsoid>
+			<datum>
+				<smXML:RS_Identifier>
+					<code>
+						<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">WGS84</scXML:CharacterString>
+					</code>
+				</smXML:RS_Identifier>
+			</datum>
+			<ellipsoidParameters>
+				<smXML:MD_EllipsoidParameters>
+					<semiMajorAxis>
+						<scXML:positiveReal xmlns:scXML="http://www.isotc211.org/scXML">6378137.000000</scXML:positiveReal>
+					</semiMajorAxis>
+					<axisUnits>
+						<scXML:UomLength xmlns:scXML="http://www.isotc211.org/scXML">meters</scXML:UomLength>
+					</axisUnits>
+					<denominatorOfFlatteningRatio>
+						<scXML:positiveReal xmlns:scXML="http://www.isotc211.org/scXML">298.257224</scXML:positiveReal>
+					</denominatorOfFlatteningRatio>
+				</smXML:MD_EllipsoidParameters>
+			</ellipsoidParameters>
+		</smXML:MD_CRS>
+	</referenceSystemInfo>
+	<!--ContentInfo-->
+	<!--Distribution info-->
+	<distributionInfo>
+		<smXML:MD_Distribution>
+			<distributor>
+				<smXML:MD_Distributor>
+					<distributorContact>
+						<smXML:CI_ResponsibleParty>
+							<individualName>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML"></scXML:CharacterString>
+							</individualName>
+							<organisationName>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Socioeconomic Data and Applications Center (SEDAC) User Services</scXML:CharacterString>
+							</organisationName>
+							<positionName>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML"></scXML:CharacterString>
+							</positionName>
+							<contactInfo>
+								<smXML:CI_Contact>
+									<phone>
+										<smXML:CI_Telephone>
+											<voice>
+												<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">+1 845-365-8920</scXML:CharacterString>
+											</voice>
+											<facsimile>
+												<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">+1 845-365-8922</scXML:CharacterString>
+											</facsimile>
+										</smXML:CI_Telephone>
+									</phone>
+									<address>
+										<smXML:CI_Address>
+											<deliveryPoint>
+												<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">CIESIN, Columbia University, 61 Route 9W, P.O. Box 1000</scXML:CharacterString>
+											</deliveryPoint>
+											<city>
+												<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Palisades</scXML:CharacterString>
+											</city>
+											<administrativeArea>
+												<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">NY</scXML:CharacterString>
+											</administrativeArea>
+											<postalCode>
+												<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">10964</scXML:CharacterString>
+											</postalCode>
+											<electronicMailAddress>
+												<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">ciesin.info@ciesin.columbia.edu</scXML:CharacterString>
+											</electronicMailAddress>
+										</smXML:CI_Address>
+									</address>
+								</smXML:CI_Contact>
+							</contactInfo>
+							<role>
+								<smXML:CI_RoleCode codeList="../ISO19139/resources/codeList.xml?CI_RoleCode" codeListValue="pointOfContact">pointOfContact</smXML:CI_RoleCode>
+							</role>
+						</smXML:CI_ResponsibleParty>
+					</distributorContact>
+					<distributionOrderProcess>
+						<smXML:MD_StandardOrderProcess>
+							<fees>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML"></scXML:CharacterString>
+							</fees>
+							<plannedAvailableDateTime>
+								<scXML:DateTime xmlns:scXML="http://www.isotc211.org/scXML">T</scXML:DateTime>
+							</plannedAvailableDateTime>
+							<orderingInstructions>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">The data and maps are available from the Socioeconomic Data and Applicaions Center (SEDAC) in  Microsoft Excel (XLS), Portable Document (PDF) and  Joint Photographic Experts Group (JPEG) formats via direct download at http://sedac.ciesin.columbia.edu/gpw/lecz.jsp.</scXML:CharacterString>
+							</orderingInstructions>
+						</smXML:MD_StandardOrderProcess>
+					</distributionOrderProcess>
+					<distributionOrderProcess>
+						<smXML:MD_StandardOrderProcess>
+							<fees>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML"></scXML:CharacterString>
+							</fees>
+							<plannedAvailableDateTime>
+								<scXML:DateTime xmlns:scXML="http://www.isotc211.org/scXML">T</scXML:DateTime>
+							</plannedAvailableDateTime>
+						</smXML:MD_StandardOrderProcess>
+					</distributionOrderProcess>
+					<distributorFormat>
+						<smXML:MD_Format>
+							<name>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">XLS</scXML:CharacterString>
+							</name>
+							<fileDecompressionTechnique>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">unzip</scXML:CharacterString>
+							</fileDecompressionTechnique>
+						</smXML:MD_Format>
+					</distributorFormat>
+					<distributorFormat>
+						<smXML:MD_Format>
+							<name>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">PDF</scXML:CharacterString>
+							</name>
+						</smXML:MD_Format>
+					</distributorFormat>
+					<distributorFormat>
+						<smXML:MD_Format>
+							<name>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">JPG</scXML:CharacterString>
+							</name>
+						</smXML:MD_Format>
+					</distributorFormat>
+				</smXML:MD_Distributor>
+			</distributor>
+			<transferOptions>
+				<smXML:MD_DigitalTransferOptions>
+					<onLine>
+						<smXML:CI_OnlineResource>
+							<linkage>
+								<smXML:URL>http://sedac.ciesin.columbia.edu/gpw/downloads/10mLECZ_GRUMPalpha.zip</smXML:URL>
+							</linkage>
+							<protocol>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Data accessible via direct download.</scXML:CharacterString>
+							</protocol>
+							<name>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">http://sedac.ciesin.columbia.edu/gpw/downloads/10mLECZ_GRUMPalpha.zip</scXML:CharacterString>
+							</name>
+						</smXML:CI_OnlineResource>
+					</onLine>
+				</smXML:MD_DigitalTransferOptions>
+			</transferOptions>
+			<transferOptions>
+				<smXML:MD_DigitalTransferOptions>
+					<onLine>
+						<smXML:CI_OnlineResource>
+							<linkage>
+								<smXML:URL>http://sedac.ciesin.columbia.edu/gpw/lecz.jsp</smXML:URL>
+							</linkage>
+							<protocol>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Maps accessible via direct download.</scXML:CharacterString>
+							</protocol>
+							<name>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">http://sedac.ciesin.columbia.edu/gpw/lecz.jsp</scXML:CharacterString>
+							</name>
+						</smXML:CI_OnlineResource>
+					</onLine>
+				</smXML:MD_DigitalTransferOptions>
+			</transferOptions>
+			<transferOptions>
+				<smXML:MD_DigitalTransferOptions>
+					<onLine>
+						<smXML:CI_OnlineResource>
+							<linkage>
+								<smXML:URL>http://sedac.ciesin.columbia.edu/gpw/lecz.jsp</smXML:URL>
+							</linkage>
+							<protocol>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">Maps accessible via direct download.</scXML:CharacterString>
+							</protocol>
+							<name>
+								<scXML:CharacterString xmlns:scXML="http://www.isotc211.org/scXML">http://sedac.ciesin.columbia.edu/gpw/lecz.jsp</scXML:CharacterString>
+							</name>
+						</smXML:CI_OnlineResource>
+					</onLine>
+				</smXML:MD_DigitalTransferOptions>
+			</transferOptions>
+		</smXML:MD_Distribution>
+	</distributionInfo>
+	<has>
+		<smXML:DS_DataSet/>
+	</has>
+</smXML:MD_Metadata>

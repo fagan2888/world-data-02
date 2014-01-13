@@ -1,0 +1,346 @@
+[
+  {
+    "FIELD DEFINITIONS":"for the two data worksheets:",
+    "FIELD2":""
+  },
+  {
+    "FIELD DEFINITIONS":"country_lecz",
+    "FIELD2":""
+  },
+  {
+    "FIELD DEFINITIONS":"citysize",
+    "FIELD2":""
+  },
+  {
+    "FIELD DEFINITIONS":"",
+    "FIELD2":""
+  },
+  {
+    "FIELD DEFINITIONS":"Worksheet:",
+    "FIELD2":"country_lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"FIELD",
+    "FIELD2":"DEFINITION"
+  },
+  {
+    "FIELD DEFINITIONS":"CONTINENT",
+    "FIELD2":"Continent Name in English: continent to which each country belongs (United Nations classification of continents)."
+  },
+  {
+    "FIELD DEFINITIONS":"ISO3V10",
+    "FIELD2":"3 character iso code (based on GRUMP alpha)"
+  },
+  {
+    "FIELD DEFINITIONS":"Country",
+    "FIELD2":"Country Name in English."
+  },
+  {
+    "FIELD DEFINITIONS":"ProjectRegion",
+    "FIELD2":"IPCC region with un-assigned countries added to it. This field was used for regional calculations in the Environment and Urbanization paper."
+  },
+  {
+    "FIELD DEFINITIONS":"G90PU_ctry",
+    "FIELD2":"1990 urban population for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"G90PR_ctry",
+    "FIELD2":"1990 rural population for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"G90PT_ctry",
+    "FIELD2":"1990 total population for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"G95PU_ctry",
+    "FIELD2":"1995 urban population for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"G95PR_ctry",
+    "FIELD2":"1995 rural population for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"G95PT_ctry",
+    "FIELD2":"1995 total population for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"G00PU_ctry",
+    "FIELD2":"2000 urban population for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"G00PR_ctry",
+    "FIELD2":"2000 rural population for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"G00PT_ctry",
+    "FIELD2":"2000 total population for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"GKMU_ctry",
+    "FIELD2":"urban area in square kilometers for the country, circa 1995"
+  },
+  {
+    "FIELD DEFINITIONS":"GKMR_ctry",
+    "FIELD2":"rural area in square kilometers for the country, circa 1995"
+  },
+  {
+    "FIELD DEFINITIONS":"GKMT_ctry",
+    "FIELD2":"total area in square kilometers for the country, circa 1995"
+  },
+  {
+    "FIELD DEFINITIONS":"G90PU_lecz",
+    "FIELD2":"1990 urban population in the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"G90PR_lecz",
+    "FIELD2":"1990 rural population in the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"G90PT_lecz",
+    "FIELD2":"1990 total population in the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"G95PU_lecz",
+    "FIELD2":"1995 urban population in the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"G95PR_lecz",
+    "FIELD2":"1995 rural population in the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"G95PT_lecz",
+    "FIELD2":"1995 total population in the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"G00PU_lecz",
+    "FIELD2":"2000 urban population in the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"G00PR_lecz",
+    "FIELD2":"2000 rural population in the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"G00PT_lecz",
+    "FIELD2":"2000 total population in the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"GKMU_lecz",
+    "FIELD2":"urban area (sq km) in the lecz, circa 1995"
+  },
+  {
+    "FIELD DEFINITIONS":"GKMR_lecz",
+    "FIELD2":"rural area (sq km) in the lecz, circa 1995"
+  },
+  {
+    "FIELD DEFINITIONS":"GKMT_lecz",
+    "FIELD2":"total area (sq km) in the lecz, circa 1995"
+  },
+  {
+    "FIELD DEFINITIONS":"UNRegion",
+    "FIELD2":"United Nations Regional Divisions: sets of countries aggregated to form named regions."
+  },
+  {
+    "FIELD DEFINITIONS":"UNSDCode",
+    "FIELD2":"United Nations Statistics Division code: numeric code unique to each country."
+  },
+  {
+    "FIELD DEFINITIONS":"IPCCRegions",
+    "FIELD2":"Regions as denoted by the WG2 AR4 of the IPCC. (See also comment to the left.)"
+  },
+  {
+    "FIELD DEFINITIONS":"OECD",
+    "FIELD2":"Member of the Organisation for Economic Co-operation and Development (OECD)"
+  },
+  {
+    "FIELD DEFINITIONS":"LDC",
+    "FIELD2":"Least Developed Countries (Adapted from UN-OHRLLS list)"
+  },
+  {
+    "FIELD DEFINITIONS":"GDPCapPPP2004",
+    "FIELD2":"GDP per capita, expressed as PPP (purchasing power parity)  (constant 2000 international $), Combination of World Bank, World Development Indicators, 2004, accessed 15mar06. Where not available, used CIA World Factbook, 2004 data from 2006 pilot EPI."
+  },
+  {
+    "FIELD DEFINITIONS":"IncomeClass2000WB",
+    "FIELD2":"Income Classifications, from Appendix A.3 of Center for Hazards \"Hotspots\" report, 2005 (original source, WB)"
+  },
+  {
+    "FIELD DEFINITIONS":"GDP2000WB",
+    "FIELD2":"2000 GDP (Millions of Current US$), from Appendix A.3 of Center for Hazards \"Hotspots\" report, 2005 (original source, WB)"
+  },
+  {
+    "FIELD DEFINITIONS":"Landlocked",
+    "FIELD2":"Landlocked country (1 = landlocked, 0 = not landlocked. There are three landlocked countries close enough to the coast to have data in the CST and CST10 zones: Ethiopia, HolySee (Vatican), and Moldova)"
+  },
+  {
+    "FIELD DEFINITIONS":"",
+    "FIELD2":""
+  },
+  {
+    "FIELD DEFINITIONS":"Worksheet:",
+    "FIELD2":"citysize"
+  },
+  {
+    "FIELD DEFINITIONS":"FIELD",
+    "FIELD2":"DEFINITION"
+  },
+  {
+    "FIELD DEFINITIONS":"Continent",
+    "FIELD2":"Continent Name in English: continent to which each country belongs (United Nations classification of continents)."
+  },
+  {
+    "FIELD DEFINITIONS":"ISO3V10",
+    "FIELD2":"3 character iso code (based on GRUMP alpha)"
+  },
+  {
+    "FIELD DEFINITIONS":"Country",
+    "FIELD2":"Country Name in English."
+  },
+  {
+    "FIELD DEFINITIONS":"ProjectRegion",
+    "FIELD2":"IPCC region with un-assigned countries added to it. This field was used for regional calculations in the Environment and Urbanization paper."
+  },
+  {
+    "FIELD DEFINITIONS":"<100K_num_ctry",
+    "FIELD2":"number of urban extents of the city size <100k for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"100-500K_num_ctry",
+    "FIELD2":"number of urban extents of the city size 100-500k for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"500K-1mil_num_ctry",
+    "FIELD2":"number of urban extents of the city size 500k-1mil for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"1-5mil_num_ctry",
+    "FIELD2":"number of urban extents of the city size 1-5mil for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"5mil+_num_ctry",
+    "FIELD2":"number of urban extents of the city size 5mil+ for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"Total_num_ctry",
+    "FIELD2":"total number of urban extents for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"<100K_00p_ctry",
+    "FIELD2":"sum of 2000 population of urban extents of the city size <100k for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"100-500K_00p_ctry",
+    "FIELD2":"sum of 2000 population of urban extents of the city size 100-500k for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"500K-1mil_00p_ctry",
+    "FIELD2":"sum of 2000 population of urban extents of the city size 500k-1mil for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"1-5mil_00p_ctry",
+    "FIELD2":"sum of 2000 population of urban extents of the city size 1-5mil for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"5mil+_00p_ctry",
+    "FIELD2":"sum of 2000 population of urban extents of the city size 5mil+ for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"Total_00p_ctry",
+    "FIELD2":"sum of 2000 population of all urban extents for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"<100K_km_ctry",
+    "FIELD2":"sum of the land area (sq km) of urban extents of the city size <100k for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"100-500K_km_ctry",
+    "FIELD2":"sum of the land area (sq km) of urban extents of the city size 100-500k for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"500K-1mil_km_ctry",
+    "FIELD2":"sum of the land area (sq km) of urban extents of the city size 500k-1mil for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"1-5mil_km_ctry",
+    "FIELD2":"sum of the land area (sq km) of urban extents of the city size 1-5mil for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"5mil+_km_ctry",
+    "FIELD2":"sum of the land area (sq km) of urban extents of the city size 5mil+ for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"Total_km_ctry",
+    "FIELD2":"sum of the land area (sq km) of all urban extents for the country"
+  },
+  {
+    "FIELD DEFINITIONS":"<100K_num_lecz",
+    "FIELD2":"number of urban extents of the city size <100k intersecting the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"100-500K_num_lecz",
+    "FIELD2":"number of urban extents of the city size 100-500k intersecting the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"500K-1mil_num_lecz",
+    "FIELD2":"number of urban extents of the city size 500k-1mil intersecting the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"1-5mil_num_lecz",
+    "FIELD2":"number of urban extents of the city size 1-5mil intersecting the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"5mil+_num_lecz",
+    "FIELD2":"number of urban extents of the city size 5mil+ intersecting the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"Total_num_lecz",
+    "FIELD2":"total number of urban extents intersecting the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"<100K_00p_lecz",
+    "FIELD2":"sum of 2000 population of urban extents of the city size <100k intersecting the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"100-500K_00p_lecz",
+    "FIELD2":"sum of 2000 population of urban extents of the city size 100-500k intersecting the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"500K-1mil_00p_lecz",
+    "FIELD2":"sum of 2000 population of urban extents of the city size 500k-1mil intersecting the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"1-5mil_00p_lecz",
+    "FIELD2":"sum of 2000 population of urban extents of the city size 1-5mil intersecting the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"5mil+_00p_lecz",
+    "FIELD2":"sum of 2000 population of urban extents of the city size 5mil+ intersecting the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"Total_00p_lecz",
+    "FIELD2":"sum of 2000 population of all urban extents intersecting the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"<100K_km_lecz",
+    "FIELD2":"sum of the land area (sq km) of urban extents of the city size <100k intersecting the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"100-500K_km_lecz",
+    "FIELD2":"sum of the land area (sq km) of urban extents of the city size 100-500k intersecting the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"500K-1mil_km_lecz",
+    "FIELD2":"sum of the land area (sq km) of urban extents of the city size 500k-1mil intersecting the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"1-5mil_km_lecz",
+    "FIELD2":"sum of the land area (sq km) of urban extents of the city size 1-5mil intersecting the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"5mil+_km_lecz",
+    "FIELD2":"sum of the land area (sq km) of urban extents of the city size 5mil+ intersecting the lecz"
+  },
+  {
+    "FIELD DEFINITIONS":"Total_km_lecz",
+    "FIELD2":"sum of the land area (sq km) of all urban extents intersecting the lecz"
+  }
+]

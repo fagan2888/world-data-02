@@ -1,0 +1,87 @@
+FIELD DEFINITIONS	
+for the two data worksheets:	
+country_lecz	
+citysize	
+	
+Worksheet:	country_lecz
+FIELD	DEFINITION
+CONTINENT	Continent Name in English: continent to which each country belongs (United Nations classification of continents).
+ISO3V10	3 character iso code (based on GRUMP alpha)
+Country	Country Name in English.
+ProjectRegion	IPCC region with un-assigned countries added to it. This field was used for regional calculations in the Environment and Urbanization paper.
+G90PU_ctry	1990 urban population for the country
+G90PR_ctry	1990 rural population for the country
+G90PT_ctry	1990 total population for the country
+G95PU_ctry	1995 urban population for the country
+G95PR_ctry	1995 rural population for the country
+G95PT_ctry	1995 total population for the country
+G00PU_ctry	2000 urban population for the country
+G00PR_ctry	2000 rural population for the country
+G00PT_ctry	2000 total population for the country
+GKMU_ctry	urban area in square kilometers for the country, circa 1995
+GKMR_ctry	rural area in square kilometers for the country, circa 1995
+GKMT_ctry	total area in square kilometers for the country, circa 1995
+G90PU_lecz	1990 urban population in the lecz
+G90PR_lecz	1990 rural population in the lecz
+G90PT_lecz	1990 total population in the lecz
+G95PU_lecz	1995 urban population in the lecz
+G95PR_lecz	1995 rural population in the lecz
+G95PT_lecz	1995 total population in the lecz
+G00PU_lecz	2000 urban population in the lecz
+G00PR_lecz	2000 rural population in the lecz
+G00PT_lecz	2000 total population in the lecz
+GKMU_lecz	urban area (sq km) in the lecz, circa 1995
+GKMR_lecz	rural area (sq km) in the lecz, circa 1995
+GKMT_lecz	total area (sq km) in the lecz, circa 1995
+UNRegion	United Nations Regional Divisions: sets of countries aggregated to form named regions.
+UNSDCode	United Nations Statistics Division code: numeric code unique to each country.
+IPCCRegions	Regions as denoted by the WG2 AR4 of the IPCC. (See also comment to the left.)
+OECD	Member of the Organisation for Economic Co-operation and Development (OECD)
+LDC	Least Developed Countries (Adapted from UN-OHRLLS list)
+GDPCapPPP2004	GDP per capita, expressed as PPP (purchasing power parity)  (constant 2000 international $), Combination of World Bank, World Development Indicators, 2004, accessed 15mar06. Where not available, used CIA World Factbook, 2004 data from 2006 pilot EPI.
+IncomeClass2000WB	Income Classifications, from Appendix A.3 of Center for Hazards "Hotspots" report, 2005 (original source, WB)
+GDP2000WB	2000 GDP (Millions of Current US$), from Appendix A.3 of Center for Hazards "Hotspots" report, 2005 (original source, WB)
+Landlocked	Landlocked country (1 = landlocked, 0 = not landlocked. There are three landlocked countries close enough to the coast to have data in the CST and CST10 zones: Ethiopia, HolySee (Vatican), and Moldova)
+	
+Worksheet:	citysize
+FIELD	DEFINITION
+Continent	Continent Name in English: continent to which each country belongs (United Nations classification of continents).
+ISO3V10	3 character iso code (based on GRUMP alpha)
+Country	Country Name in English.
+ProjectRegion	IPCC region with un-assigned countries added to it. This field was used for regional calculations in the Environment and Urbanization paper.
+<100K_num_ctry	number of urban extents of the city size <100k for the country
+100-500K_num_ctry	number of urban extents of the city size 100-500k for the country
+500K-1mil_num_ctry	number of urban extents of the city size 500k-1mil for the country
+1-5mil_num_ctry	number of urban extents of the city size 1-5mil for the country
+5mil+_num_ctry	number of urban extents of the city size 5mil+ for the country
+Total_num_ctry	total number of urban extents for the country
+<100K_00p_ctry	sum of 2000 population of urban extents of the city size <100k for the country
+100-500K_00p_ctry	sum of 2000 population of urban extents of the city size 100-500k for the country
+500K-1mil_00p_ctry	sum of 2000 population of urban extents of the city size 500k-1mil for the country
+1-5mil_00p_ctry	sum of 2000 population of urban extents of the city size 1-5mil for the country
+5mil+_00p_ctry	sum of 2000 population of urban extents of the city size 5mil+ for the country
+Total_00p_ctry	sum of 2000 population of all urban extents for the country
+<100K_km_ctry	sum of the land area (sq km) of urban extents of the city size <100k for the country
+100-500K_km_ctry	sum of the land area (sq km) of urban extents of the city size 100-500k for the country
+500K-1mil_km_ctry	sum of the land area (sq km) of urban extents of the city size 500k-1mil for the country
+1-5mil_km_ctry	sum of the land area (sq km) of urban extents of the city size 1-5mil for the country
+5mil+_km_ctry	sum of the land area (sq km) of urban extents of the city size 5mil+ for the country
+Total_km_ctry	sum of the land area (sq km) of all urban extents for the country
+<100K_num_lecz	number of urban extents of the city size <100k intersecting the lecz
+100-500K_num_lecz	number of urban extents of the city size 100-500k intersecting the lecz
+500K-1mil_num_lecz	number of urban extents of the city size 500k-1mil intersecting the lecz
+1-5mil_num_lecz	number of urban extents of the city size 1-5mil intersecting the lecz
+5mil+_num_lecz	number of urban extents of the city size 5mil+ intersecting the lecz
+Total_num_lecz	total number of urban extents intersecting the lecz
+<100K_00p_lecz	sum of 2000 population of urban extents of the city size <100k intersecting the lecz
+100-500K_00p_lecz	sum of 2000 population of urban extents of the city size 100-500k intersecting the lecz
+500K-1mil_00p_lecz	sum of 2000 population of urban extents of the city size 500k-1mil intersecting the lecz
+1-5mil_00p_lecz	sum of 2000 population of urban extents of the city size 1-5mil intersecting the lecz
+5mil+_00p_lecz	sum of 2000 population of urban extents of the city size 5mil+ intersecting the lecz
+Total_00p_lecz	sum of 2000 population of all urban extents intersecting the lecz
+<100K_km_lecz	sum of the land area (sq km) of urban extents of the city size <100k intersecting the lecz
+100-500K_km_lecz	sum of the land area (sq km) of urban extents of the city size 100-500k intersecting the lecz
+500K-1mil_km_lecz	sum of the land area (sq km) of urban extents of the city size 500k-1mil intersecting the lecz
+1-5mil_km_lecz	sum of the land area (sq km) of urban extents of the city size 1-5mil intersecting the lecz
+5mil+_km_lecz	sum of the land area (sq km) of urban extents of the city size 5mil+ intersecting the lecz
+Total_km_lecz	sum of the land area (sq km) of all urban extents intersecting the lecz
